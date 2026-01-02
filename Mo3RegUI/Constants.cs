@@ -1,9 +1,9 @@
-﻿namespace Mo3RegUI
+namespace Mo3RegUI
 {
     public static class Constants
     {
-        public const string GameName = "心灵终结 3.3.6";
-        public const string EnglishGameName = "Mental Omega 3.3.6";
+        public const string GameName = "尤里的复仇";
+        public const string EnglishGameName = "Yuri's Revenge";
 
         public const string AppName = GameName + " 注册机";
         public const string EnglishAppName = "Register for " + EnglishGameName;
@@ -20,18 +20,16 @@
 
         public const string NeutralResourcesLanguage = "zh-CN";
 
-        public const string GameConfigIniName = "RA2MO.ini";
-        public const string LauncherExeName = "MentalOmegaClient.exe";
+        public const string GameConfigIniName = "RA2MD.ini";
+        public const string LauncherExeName = "CnCNetYRLauncher.exe";
         public const string GameExeName = "gamemd.exe";
         public const string SecondaryGameExeName = "Syringe.exe";
 
         public static readonly string[] VulnerableAvExes = new string[] {
-            "cncnet5.dll",
-            "cncnet5mo.dll",
-            "ares.dll",
+            "Ares.dll",
+            "Phobos.dll",
+            "CnCNet-Spawner.dll",
             "Syringe.exe",
-            "Map Editor/FinalAlert2MO.exe",
-            "Map Editor/Syringe.exe",
             "Resources/ddraw_dxwnd.dll",
         };
 
