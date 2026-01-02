@@ -22,7 +22,7 @@ namespace Mo3RegUI
 
         public const string GameConfigIniName = "RA2MD.ini";
         public const string LauncherExeName = "CnCNetYRLauncher.exe";
-        public const string GameExeName = "gamemd.exe";
+        public const string GameExeName = "gamemd-spawn.exe";
         public const string SecondaryGameExeName = "Syringe.exe";
 
         public static readonly string[] VulnerableAvExes = new string[] {
